@@ -27,3 +27,18 @@ Para lograr los objetivos de la tarea propuesta, se creó un script que se estru
 Tras la ejecución del script implementado, los resultados que se obtuvieron fueron:
 ![EDA-1](https://github.com/lucia2564/tarea-pd/blob/master/images/Screenshot-6-1.png)
 ![EDA-1](https://github.com/lucia2564/tarea-pd/blob/master/images/Screenshot-6-2.png)
+
+# Ficha técnica del conjunto de datos   
+
+- Nombre del dataset: Reporte Hurto por Modalidades Policía Nacional.   
+- Entidad emisora: Policía Nacional de Colombia / Dirección de Investigación Criminal e INTERPOL (DIJIN).
+- Fuente oficial: Portal de Datos Abiertos del Gobierno de Colombia (datos.gov.co).
+- Identificador / URL del dataset: [https://www.datos.gov.co/Seguridad-y-Defensa/Reporte-Hurto-por-Modalidades-Polic-a-Nacional/d4fr-sbn2](https://www.datos.gov.co/Seguridad-y-Defensa/Reporte-Hurto-por-Modalidades-Polic-a-Nacional/d4fr-sbn2)
+- Tipo de datos y volumen: Miles de registros estructurados en formato tabular (CSV/JSON), con cobertura a nivel país y actualización periódica.
+- Variables analíticas principales:
+    - FECHA HECHO: Marca temporal en la que ocurrió el incidente (año, mes, día).   
+    - DEPARTAMENTO y MUNICIPIO: Variables de granularidad espacial para georreferenciación y agregaciones territoriales.   
+    - MODALIDAD: Tipología del hurto (atraco, cosquilleo, factor de oportunidad, rompimiento de cerradura, entre otros).   
+    - GRUPO ETARIO Y GÉNERO: Caracterización de la población.   
+    - ARMA MEDIOS: Medio o instrumento utilizado durante la comisión del delito (arma de fuego, cortopunzante, contundente, sin empleo de armas).
+    - CANTIDAD: Número de casos o eventos confirmados asociados al registro.
